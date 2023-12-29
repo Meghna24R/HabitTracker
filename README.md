@@ -19,7 +19,7 @@ A habit tracker app which can define and track them using react app.
   * Delete any habit from the list
 
 ## Folder structure
-    ![Alt text](image.png)
+    ![Alt text](https://github.com/Meghna24R/HabitTracker/blob/main/image.png?raw=true)
   * src
     * components
       * CreateHabit : component that is displayed when the user wants to create a new habit(modal dialog)

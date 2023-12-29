@@ -37,7 +37,7 @@ const Overview = () => {
             <Row>
               <Col md={2} className='icons'>
                 {' '}
-                <i className='fa-solid fa-feather-pointed me-3'></i>
+                <i class="fa-solid fa-chevron-right"></i>
               </Col>
               <Col md={8} className='habit-title'>{habit.title}</Col>
               <Col md={1} className='icons'>

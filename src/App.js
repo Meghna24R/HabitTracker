@@ -9,28 +9,28 @@ import Typed from 'typed.js'
 
 function App() {
   // code for typed.js library
-  useEffect(() => {
-    const typed = new Typed('.tag', {
-      strings: [
-        "...okay. Let's start by tracking a habit for next seven days.",
-        "It's never too late to develop good habits.",
-        'Good habits formed at youth makes all the difference - Aristotle',
-        'Motivation is what gets you started. Habit is what keeps you going.',
-        'Habits change into character.',
-      ], // Strings to display
-      // Speed settings, try diffrent values untill you get good results
-      startDelay: 2000,
-      typeSpeed: 40,
-      backSpeed: 20,
-      backDelay: 5000,
-      loop: true,
-    })
+  // useEffect(() => {
+  //   const typed = new Typed('.tag', {
+  //     strings: [
+  //       "...okay. Let's start by tracking a habit for next seven days.",
+  //       "It's never too late to develop good habits.",
+  //       'Good habits formed at youth makes all the difference - Aristotle',
+  //       'Motivation is what gets you started. Habit is what keeps you going.',
+  //       'Habits change into character.',
+  //     ], // Strings to display
+  //     // Speed settings
+  //     startDelay: 2000,
+  //     typeSpeed: 40,
+  //     backSpeed: 20,
+  //     backDelay: 5000,
+  //     loop: true,
+  //   })
 
-    // Destroying
-    return () => {
-      typed.destroy()
-    }
-  }, [])
+  //   // Destroying
+  //   return () => {
+  //     typed.destroy()
+  //   }
+  // }, [])
 
   return (
     <>
